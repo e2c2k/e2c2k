@@ -4,7 +4,5 @@
 - 📫 How to reach me:  please dont
 - ⚡ Fun fact: 
 
-<!---
-e2c2k/e2c2k is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+Just using this to store some work, I think git is cool 
