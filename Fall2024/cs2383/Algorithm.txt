@@ -1,0 +1,8 @@
+array of integers from 1-1million (can be dups)
+any dups?
+
+Not very efficient 
+grab first element and compare to every other element for the same value 
+move to the second element 
+if found same element return true 
+if none found move to the second element in the array and repeat the prior steps 
