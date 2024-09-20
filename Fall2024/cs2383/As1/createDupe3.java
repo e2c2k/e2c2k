@@ -8,7 +8,6 @@ public class createDupe3 extends Duplication {
         super(arraySizeIn, maxValueIn);
     }
 
-    @Override
     public boolean containsDuplicate() {
        boolean dupeFound = false;
        int[] newArr = Arrays.copyOf(super.array, super.array.length);

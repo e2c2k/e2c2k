@@ -6,7 +6,6 @@ public class createDupe1A extends Duplication{
         super(arraySizeIn , maxValueIn);
     }
 
-    @Override
     public boolean containsDuplicate() {
         int length = super.array.length;
         for (int i =0;i<length;i++){

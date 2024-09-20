@@ -7,7 +7,6 @@ public class createDupe4 extends Duplication {
         super(arraySizeIn, maxValueIn);
     }
 
-    @Override
     public boolean containsDuplicate() {
        boolean dupeFound = false;
        BinaryTree tree = new BinaryTree();

@@ -6,7 +6,7 @@ public class createDupe2 extends Duplication {
         super(arraySizeIn, maxValueIn);
     }
 
-    @Override
+    
     public boolean containsDuplicate() {
        boolean dupeFound = false;
        int[] lookUP = new int[super.maxValue +1];
