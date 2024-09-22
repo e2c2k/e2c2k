@@ -7,10 +7,10 @@ public class createDupe1A extends Duplication{
     }
 
     public boolean containsDuplicate() {
-        int length = super.array.length;
+        int length = array.length;
         for (int i =0;i<length;i++){
             for (int j = i+1; j<length;j++){
-                if (super.array[i] == super.array[j]){
+                if (array[i] == array[j]){
                     return true;
                 }
             }

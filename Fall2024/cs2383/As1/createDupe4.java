@@ -10,7 +10,7 @@ public class createDupe4 extends Duplication {
     public boolean containsDuplicate() {
        boolean dupeFound = false;
        BinaryTree tree = new BinaryTree();
-       for (int value :super.array)
+       for (int value :array)
         try{
             tree.insert(value);
         }catch(IllegalArgumentException e){

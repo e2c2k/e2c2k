@@ -10,7 +10,7 @@ public class createDupe3 extends Duplication {
 
     public boolean containsDuplicate() {
        boolean dupeFound = false;
-       int[] newArr = Arrays.copyOf(super.array, super.array.length);
+       int[] newArr = Arrays.copyOf(array, array.length);
        Arrays.sort(newArr);
        for (int i=0;i+1<newArr.length;i++){
         if (newArr[i] == newArr[i+1]){

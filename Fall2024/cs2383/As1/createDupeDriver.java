@@ -7,7 +7,7 @@ public class createDupeDriver {
         long time;
         
         start = System.currentTimeMillis();
-        createDupe2 test =new createDupe2(400000, 400000);
+        createDupe2 test =new createDupe2(1000000, 8000000);
         System.out.println(test.containsDuplicate());
         end = System.currentTimeMillis();
         time = end - start;
